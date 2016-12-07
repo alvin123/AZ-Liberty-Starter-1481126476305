@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: AZ-Liberty-Starter
+  host: AZ-Liberty-Starter
+  disk_quota: 1024M
